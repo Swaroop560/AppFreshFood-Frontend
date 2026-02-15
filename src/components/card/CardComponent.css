@@ -1,0 +1,16 @@
+.card-item{
+   border:2px solid red;
+}
+.card-img{
+   width:40%;
+   border-radius:15px;
+}
+.card-title{
+   font-size:14px;
+}
+.card-text{
+   font-size:16px;
+}
+.card-container{
+   border:2px solid yellow;
+}

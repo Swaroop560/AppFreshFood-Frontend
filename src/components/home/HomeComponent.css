@@ -1,0 +1,95 @@
+/* Hero section styles */
+.hero {
+    background:url('../../../public/assets/home-page.png');
+    /* background-position: contain; */
+    background-size:100%;
+    background-repeat:no-repeat;
+    /* background-color: #f4f4f4; */
+    padding: 300px 0;
+    text-align: center;
+    min-height:calc(100% - 85px);
+    /* border:2px solid red; */
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .hero button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Products section styles */
+  .products {
+    padding: 50px 0;
+    text-align: center;
+    min-height:calc(100% - 85px);
+    /* border:2px solid red; */
+  }
+  
+  .product-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width:10%;
+  }
+
+  .product-card:hover{
+    border:1px solid orange;
+    cursor:pointer;
+  }
+  
+  .product-card img {
+    width:150px;
+    /* height: auto; */
+    border-radius:10px;
+  }
+  
+  .product-card h5 {
+    margin-top: 5px;
+  }
+  
+  .product-card h6 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* About section styles */
+  .about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Contact section styles */
+  .contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }

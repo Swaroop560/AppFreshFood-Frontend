@@ -1,0 +1,24 @@
+.orders-wrapper{
+    /* border:2px solid yellow; */
+    height:100vh;
+}
+.accordion-body .card-img{
+    width:30%;
+    border-radius:15px;
+ }
+ table{
+    width:100%;
+    /* border:0.5px solid green; */
+    border-radius:20px;
+ }
+ table tr td{
+    padding:2px;
+ }
+ .cardText{
+    font-size: 13px;
+ }
+ .card-title-info{
+    font-size:12px;
+    padding:2px;
+    /* background:#F44336; */
+ }

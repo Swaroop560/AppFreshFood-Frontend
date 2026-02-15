@@ -1,0 +1,30 @@
+.horizontal-scroll-container {
+    display: flex;
+    flex-direction:row;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+  }
+  
+  .image-item {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+    border-radius: 20px;
+    cursor:pointer;
+  }
+  .delete-icon{
+    position: relative;
+    /* top:-13px; */
+    left:-18px;
+    cursor:pointer;
+  }
+  .fav-tradercode{
+      font-size:8px;
+      position:relative;
+      left: -34px;
+      top: 38px;
+      display:block;
+      background-color:white;
+  }
+  

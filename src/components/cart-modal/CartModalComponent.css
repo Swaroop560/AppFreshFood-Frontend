@@ -1,0 +1,61 @@
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    width: 40%;
+    height: 60%;
+    /* background:lightgray; */
+    background-color: rgba(238, 229, 229, 0.9);
+     /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 20px;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    height:90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  
+  /* Close Button */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  /* Modal Component  */
+  .trader-price-ribbon{
+    font-size:15px;
+    cursor: pointer;
+    color:whitesmoke;
+  }
+
+  .prod-image-modal{
+    width:30%;
+    border-radius:20px;
+  }
+
+  #quantity1{
+    width:30%;
+  }
+  .checked-button{
+    background-color: red;
+    border-radius:5px;
+    margin-right:2px;
+  }
+
+  .unchecked-button{
+    background-color:yellow;
+    border-radius:5px;
+    margin-right:2px;
+  }

@@ -1,0 +1,16 @@
+.login-container{
+   padding:50px;
+}
+.login-container .card{
+    box-shadow:0 0 20px rgba(0,0,0,.2);
+}
+img.login-brand {
+    width: 20%;
+}
+.login-logo {
+    display: flex;
+    justify-content: center;
+}
+.logo-container{
+    height:20%;
+}
